@@ -13,7 +13,7 @@
       {
         "id": 2,
         "nombre": "Botines Nike Tiempo Legend 10 Academy",
-        "foto": "imgs/nike-tiempo-legend.webp",
+        "foto": "imgs/nike-tiempo.webp",
         "descripcion": "El cuero con diseño avanzado FlyTouch Lite es increíblemente suave. Ayuda a que el calzado se adapte al pie para ofrecer mayor comodidad sin exceso de elasticidad.",
         "precio": 249999,
         "stock": "2",
@@ -23,7 +23,7 @@
       {
         "id": 3,
         "nombre": "Botines adidas F50 League Fg",
-        "foto": "imgs/botines-adidas-f50-blanco.webp",
+        "foto": "imgs/botines-adidas-f50.webp",
         "descripcion": "Los Adidas F50 League FG son botines ligeros y de alto rendimiento, diseñados para jugadores que buscan velocidad y control.",
         "precio": 319999,
         "stock": "2",
