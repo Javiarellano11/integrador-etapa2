@@ -1,0 +1,24 @@
+.section-cards {
+    background-color: white;
+    padding: 1rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.subtitulo-index {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: #ffed00;
+}
+.title-index {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    color: #ffed00;
+    text-shadow: 3px 3px 0px black
+}

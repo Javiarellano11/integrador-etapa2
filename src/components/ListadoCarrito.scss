@@ -1,0 +1,74 @@
+table.tabla-carrito {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 1rem auto;
+    
+
+    th, td {
+        border: 2px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: rgb(51, 50, 51);
+        color: #fff;
+        text-align: center;
+        border: 1px solid black
+    }
+
+    td {
+        text-align: center;
+    }
+
+}
+.botonesCarrito {
+    padding: 4px;
+    margin: 0.5rem;
+    background-color: #888;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.botonesCarrito:hover {
+    padding: 4px;
+    margin: 0.5rem;
+    background-color: #ffed00;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.botones {
+    text-align: center;
+}
+
+.total-precio {
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #ffed00;
+    color: black;
+}
+.total-prods {
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #ffed00;
+    color: black;
+}

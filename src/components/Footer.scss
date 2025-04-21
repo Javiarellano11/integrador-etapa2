@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #333233;
+    color: white;
+    justify-content: center;
+}
+
+
+.footer-content {
+    padding: 1rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    &__contenedor {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        
+    }
+
+    &__payments {
+        width: 3rem;
+        height: 2rem;
+     /*    justify-content: right; */
+        
+    }
+
+    &__parrafo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}

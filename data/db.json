@@ -1,0 +1,44 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Botines Nike AirZoom Vapor 16 Pro Fg",
+        "foto": "imgs/nike-airzoom-vapor.webp",
+        "descripcion": "Los Nike Air Zoom Vapor 16 Pro FG son botines de fútbol ligeros y de alto rendimiento, diseñados para jugadores rápidos.",
+        "precio": 349999,
+        "stock": "4",
+        "categoria": "botines",
+        "envio": true
+      },
+      {
+        "id": 2,
+        "nombre": "Botines Nike Tiempo Legend 10 Academy",
+        "foto": "imgs/nike-tiempo-legend.webp",
+        "descripcion": "El cuero con diseño avanzado FlyTouch Lite es increíblemente suave. Ayuda a que el calzado se adapte al pie para ofrecer mayor comodidad sin exceso de elasticidad.",
+        "precio": 249999,
+        "stock": "2",
+        "categoria": "botines",
+        "envio": true
+      },
+      {
+        "id": 3,
+        "nombre": "Botines adidas F50 League Fg",
+        "foto": "imgs/botines-adidas-f50-blanco.webp",
+        "descripcion": "Los Adidas F50 League FG son botines ligeros y de alto rendimiento, diseñados para jugadores que buscan velocidad y control.",
+        "precio": 319999,
+        "stock": "2",
+        "categoria": "botines",
+        "envio": true
+      },
+      {
+        "id": 4,
+        "nombre": "Botines adidas Predator Accuracy.2 Fg",
+        "foto": "imgs/botines-adidas-predator-negro-rosa.webp",
+        "descripcion": "El exterior HybridTouch suave de estos botines incorpora un cuello de corte medio en material textil para un ajuste perfecto",
+        "precio": 150000,
+        "stock": "3",
+        "categoria": "botines",
+        "envio": true
+      }
+    ]
+  }
