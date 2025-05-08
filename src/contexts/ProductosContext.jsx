@@ -1,11 +1,12 @@
-import { createContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { createContext } from "react";
 import { peticionesHttp } from "../helpers/peticiones-http";
 
 
 
 const ProductosContext = createContext()
 
-const ProductosProvider = ( { children }) => {
+const ProductosProvider = ({children}) => {
 
     const url = import.meta.env.VITE_BACKEND_PRODUCTOS
     const [productos, setProductos] = useState(null)
@@ -21,7 +22,6 @@ const ProductosProvider = ( { children }) => {
         try {
 
             const prods = await peticionesHttp(url, {})
-
             setProductos(prods)
 
         } catch (error) {

@@ -1,6 +1,6 @@
 import './Inicio.scss'
 import Card from "../components/Card"
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import ProductosContext from '../contexts/ProductosContext'
 import useTitulo from '../hooks/useTitulo'
 
@@ -21,13 +21,9 @@ const Inicio = () => {
         </section>
 
         <section className="cards-container" id="container-productos">
-          {
-            productos && productos.map((producto) => (
+          {productos && productos.map((producto) => (
               <Card producto={producto} key={producto.id} />
-            ))
-
-
-          }
+            ))}
 
         </section>
 
